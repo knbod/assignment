@@ -19,9 +19,9 @@ print(age_multiplication)
 print(age_division)
 
 #3.
-print(age == 18)
-print(age != 18)
-print(age > 18)
+print(age == 18) #False
+print(age != 18) #True
+print(age > 18) #True
 
 
 #4.
@@ -29,9 +29,9 @@ and_condition = (age > 18) and (age < 20)
 or_condition = (age > 18) or (age < 20)
 not_condition = not((age > 18) or (age < 20))
 
-print(and_condition)
-print(or_condition)
-print(not_condition)
+print(and_condition) #False
+print(or_condition) #True
+print(not_condition) #False
 
 #5.
 marks = 50
@@ -48,8 +48,8 @@ print(marks)
 #6.
 a = 4
 b = 6
-print(a is b)
-print(a is not b)
+print(a is b) #False
+print(a is not b) #True
 
 
 #7.
